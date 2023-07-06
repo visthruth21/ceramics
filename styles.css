@@ -1,0 +1,79 @@
+body{
+    font-family: 'Cormorant', serif;
+}
+
+h1{
+    display: inline-block;
+    font-weight: 300px;
+    margin:0px 32px 0px 0px;
+    
+}
+
+.links{
+    display: inline-block;
+}
+.links li{
+    display: inline-block;
+    
+
+}
+.links a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    margin:0 8px;
+}
+.links ul{
+    padding:0;
+}
+.navbar{
+    margin:32px;
+}
+a.active{
+    border-bottom: 1px solid black;
+}
+img{
+   
+    height:500px;
+    width:100%;
+    object-fit: cover;
+
+}
+.box{
+    width:49.75%;
+    display:inline-block;
+    box-sizing: border-box;
+    padding:16px;
+    
+}
+.gallery{
+    padding:18px;
+}
+.box h2{
+    margin:8px 0 16px 0;
+    font-weight: 300px;
+}
+
+.about h3{
+    font-size: 40px;
+    font-weight: 300px;
+}
+.about{
+    width:40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.contact p{
+    margin:0px;
+    font-size: 20px;
+}
+.bottom{
+   
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-top:8px;
+}
+.box:hover{
+    opacity: 70%;
+}
